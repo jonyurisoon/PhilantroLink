@@ -17,11 +17,20 @@ class LoginActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        binding.LoginButton.setOnClickListener {
+            val intent = Intent(this, DashboardActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
     fun onSignUpClicked(view: View) {
         val intent = Intent(this, SignupActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun onForgotPasswordClicked(view: View) {
+        val intent = Intent(this, ForgotPasswordActivity::class.java)
         startActivity(intent)
     }
 }
