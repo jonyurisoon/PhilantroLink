@@ -59,7 +59,8 @@
         android:layout_marginTop="25dp"
         android:text="Login"
         android:textAllCaps="false"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -71,15 +72,17 @@
         android:clickable="true"
         />
 
+
     <Button
         android:id="@+id/GoogleLoginButton"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
-        android:text="Continue with Google"
         android:background="@drawable/button_background2"
+        android:drawableLeft="@drawable/googlelogo"
         android:foreground="@drawable/button_border2"
+        android:text="Continue with Google"
         android:textAllCaps="false"
         android:textColor="@android:color/black" />
 
