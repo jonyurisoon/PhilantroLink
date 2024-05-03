@@ -7,6 +7,8 @@
     android:background="@color/white"
     tools:context=".ProfileDashboardActivity">
 
+
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/ProfileToolbar"
         android:layout_width="match_parent"
@@ -18,5 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Hello World, profile"/>
+
+
 
 </LinearLayout>
