@@ -20,23 +20,28 @@ class DashboardActivity : AppCompatActivity() {
 
 
         binding.EventManagerDash.setOnClickListener {
-
+            val intent = Intent(this, EventManagerDashboardActivity::class.java)
+            startActivity(intent)
         }
 
         binding.LookForEventsDash.setOnClickListener {
-
+            val intent = Intent(this, LookForEventsDashboardActivity::class.java)
+            startActivity(intent)
         }
 
         binding.DonateDash.setOnClickListener {
-
+            val intent = Intent(this, DonateDashboardActivity::class.java)
+            startActivity(intent)
         }
 
         binding.SocialDash.setOnClickListener {
-
+            val intent = Intent(this, SocialDashboardActivity::class.java)
+            startActivity(intent)
         }
 
         binding.ProfileDash.setOnClickListener {
-
+            val intent = Intent(this, ProfileDashboardActivity::class.java)
+            startActivity(intent)
         }
 
         binding.NotificationDash.setOnClickListener {

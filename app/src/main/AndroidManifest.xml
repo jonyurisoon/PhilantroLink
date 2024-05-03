@@ -13,9 +13,29 @@
         android:theme="@style/Theme.PhilantroLink"
         tools:targetApi="31">
         <activity
-            android:name=".NotificationDashboardActivity"
+            android:name=".ProfileDashboardActivity"
             android:exported="false"
             android:parentActivityName=".DashboardActivity"/>
+        <activity
+            android:name=".SocialDashboardActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity"/>
+        <activity
+            android:name=".DonateDashboardActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity"/>
+        <activity
+            android:name=".LookForEventsDashboardActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity"/>
+        <activity
+            android:name=".EventManagerDashboardActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity"/>
+        <activity
+            android:name=".NotificationDashboardActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity" />
         <activity
             android:name=".DashboardActivity"
             android:exported="false" />
