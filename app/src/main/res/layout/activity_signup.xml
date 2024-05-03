@@ -39,7 +39,7 @@
         android:id="@+id/regFirstName"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:padding="10dp"
         android:layout_gravity="center_horizontal"
         android:hint="Firstname"
@@ -95,7 +95,7 @@
         android:padding="10dp"
         android:layout_gravity="center_horizontal"
         android:hint="Email"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:background="@drawable/edittext_bg"
         android:textColor="@android:color/black"
         android:textSize="16sp" />
