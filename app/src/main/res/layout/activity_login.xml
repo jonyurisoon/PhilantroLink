@@ -96,10 +96,7 @@
         android:drawableLeft="@drawable/googlelogo"
         android:text="Continue with Google"
         android:textAllCaps="false"
-
         android:textColor="@android:color/black" />
-
-
 
     <View
         android:layout_width="250dp"

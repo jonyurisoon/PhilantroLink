@@ -15,9 +15,37 @@
         android:background="@color/sky_blue"
        />
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World, notifications"/>
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="All"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="200dp"
+            android:textSize="18sp"
+            android:text="Unread"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="0.5dp"
+        android:background="@android:color/black" />
 
 </LinearLayout>
