@@ -2,6 +2,7 @@ package com.example.philantrolink
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.WindowManager
 
 import androidx.appcompat.app.AppCompatActivity
 
@@ -18,6 +19,8 @@ class DashboardActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+        // Remove action bar
+        // supportActionBar?.hide()
 
         binding.EventManagerDash.setOnClickListener {
             val intent = Intent(this, EventManagerDashboardActivity::class.java)
