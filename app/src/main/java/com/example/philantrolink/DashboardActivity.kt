@@ -1,5 +1,6 @@
 package com.example.philantrolink
 
+import android.content.Intent
 import android.os.Bundle
 
 import androidx.appcompat.app.AppCompatActivity
@@ -17,5 +18,30 @@ class DashboardActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+
+        binding.EventManagerDash.setOnClickListener {
+
+        }
+
+        binding.LookForEventsDash.setOnClickListener {
+
+        }
+
+        binding.DonateDash.setOnClickListener {
+
+        }
+
+        binding.SocialDash.setOnClickListener {
+
+        }
+
+        binding.ProfileDash.setOnClickListener {
+
+        }
+
+        binding.NotificationDash.setOnClickListener {
+            val intent = Intent(this, NotificationDashboardActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -10,7 +10,8 @@
         android:id="@+id/top_view"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:background="@drawable/bg_dashboard" />
+        android:background="@drawable/bg_dashboard"
+        />
 
     <GridLayout
         android:layout_width="match_parent"
@@ -247,6 +248,15 @@
         android:layout_marginTop="25dp"
         />
 
-
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bottom_menu_bg"
+       />
 
 </RelativeLayout>
