@@ -14,9 +14,109 @@
         android:background="@color/sky_blue"
         />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/charityevent"
+        android:scaleType="centerCrop"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World, charity event"/>
+        android:text="Charity Event"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by: Yuri Soon"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="20dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Located at: Barangay Hall, Centro, Mandaue"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starts at: 05/25/2024 - 10:00 AM - 12:00 PM"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_calendar"
+        android:drawablePadding="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Participants: 123 registered"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_people"
+        android:drawablePadding="20dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@color/sky_blue"
+        android:drawablePadding="20dp"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:text="Add event"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comments"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tyronne John: Wow! This is amazing"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:drawableLeft="@drawable/ic_profileevent"
+        android:drawablePadding="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jade Russel: Very Cool!"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:drawableLeft="@drawable/ic_profileevent"
+        android:drawablePadding="20dp"
+        />
+
 
 </LinearLayout>
