@@ -1,5 +1,6 @@
 package com.example.philantrolink
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -30,6 +31,10 @@ class LookForEventsDashboardActivity : AppCompatActivity() {
             onBackPressed()
         }
 
+        binding.CharityEvent.setOnClickListener {
+            val intent = Intent(this, CharityEventActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
 

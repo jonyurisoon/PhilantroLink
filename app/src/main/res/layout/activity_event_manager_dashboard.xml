@@ -8,6 +8,8 @@
     android:orientation="vertical"
     tools:context=".EventManagerDashboardActivity">
 
+
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/EventManagerToolbar"
         android:layout_width="match_parent"
@@ -27,7 +29,7 @@
         android:rowCount="4">
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/CharityEvent"
+            android:id="@+id/CreateEvent"
             android:layout_width="0dp"
             android:layout_height="150dp"
             android:layout_columnWeight="1"
@@ -60,16 +62,15 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-
         <androidx.cardview.widget.CardView
-            android:id="@+id/FundraisingEvent2"
+            android:id="@+id/CharityEvent2"
             android:layout_width="0dp"
             android:layout_height="150dp"
             android:layout_columnWeight="1"
             android:layout_margin="12dp"
             android:layout_marginTop="30dp"
             app:cardCornerRadius="15dp"
-            app:cardElevation="12dp">
+            app:cardElevation="1dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -77,20 +78,19 @@
                 android:background="@color/light_green"
                 android:orientation="vertical">
 
-
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="80dp"
                     android:layout_marginRight="100dp"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20dp"
-                    android:src="@drawable/ic_fundraising" />
+                    android:src="@drawable/ic_charity" />
 
                 <TextView
                     android:layout_width="114dp"
                     android:layout_height="80dp"
                     android:layout_marginBottom="100dp"
-                    android:text="Fundraising Event"
+                    android:text="Charity Event"
                     android:textAlignment="center"
                     android:textSize="18sp"
                     android:textStyle="bold" />
