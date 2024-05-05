@@ -1,5 +1,6 @@
 package com.example.philantrolink
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -28,6 +29,11 @@ class DonateDashboardActivity : AppCompatActivity() {
         // Set click listener for the Up button
         binding.DonateToolbar.setNavigationOnClickListener {
             onBackPressed()
+        }
+
+        binding.FundsForCancerPatient.setOnClickListener {
+            val intent = Intent(this, FundsForCancerPatientActivity::class.java)
+            startActivity(intent)
         }
 
     }

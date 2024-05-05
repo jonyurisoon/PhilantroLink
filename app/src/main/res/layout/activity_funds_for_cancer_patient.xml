@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".FundsForCancerPatientActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/FundsForCancerPatientToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/sky_blue"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cancerpatient"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Funds For Cancer Patient"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created by: Tyrone John"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="21 people donated"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        android:drawableLeft="@drawable/ic_people"
+        android:drawablePadding="20dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@color/sky_blue"
+        android:drawablePadding="20dp"
+        android:layout_gravity="center"
+        android:padding="12dp"
+        android:text="Donate"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comments"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yuri Soon: Get well soon!"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:drawableLeft="@drawable/ic_profileevent"
+        android:drawablePadding="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jade Russel: Be brave!"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:padding="16dp"
+        android:drawableLeft="@drawable/ic_profileevent"
+        android:drawablePadding="20dp"
+        />
+
+
+</LinearLayout>
