@@ -25,14 +25,14 @@
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
-            android:layout_height="121dp"
+            android:layout_height="100dp"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/top_background" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="120dp"
             android:layout_marginTop="-70dp"
             app:srcCompat="@drawable/ic_profilepic" />
 
@@ -40,9 +40,8 @@
             android:id="@+id/NameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
             android:text="Yuri Soon"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:textStyle="bold"
             android:textAlignment="center" />
 
@@ -51,8 +50,46 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="jonyurisoon@gmail.com"
-            android:textSize="20sp"
-            android:layout_marginBottom="20dp"
+            android:textSize="16sp"
+
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_food" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_water"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_money"
+                 />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/BioProfileTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌟 Making the world brighter, one act of kindness at a time. Passionate philanthropist 🌍 | Advocate for education 📚, healthcare 🏥, and social justice ⚖️ | "
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"
             android:textAlignment="center" />
 
         <TextView
@@ -164,5 +201,154 @@
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recent activities: "
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"/>
+
+        <!-- Second row -->
+        <LinearLayout
+            android:id="@+id/secondRow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_charity"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Charity Event"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_fundraising"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fundraising Event"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_treeplanting"
+                        android:layout_marginTop="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tree Planting"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/EditProfileButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Edit Profile"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background2"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
     </LinearLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/contactSupportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_contactsupport"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/contactSupportButton"
+        app:layout_constraintVertical_bias="1"
+        app:backgroundTint="@color/dark_blue"/>
+
+    <TextView
+        android:id="@+id/contactSupportText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Support"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/contactSupportButton"
+        app:layout_constraintStart_toEndOf="@+id/contactSupportButton"
+        app:layout_constraintTop_toTopOf="@+id/contactSupportButton"
+        app:layout_constraintVertical_bias="0.5"
+        android:layout_marginStart="8dp"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
